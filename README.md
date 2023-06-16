@@ -20,8 +20,8 @@
         `suliman-99`,
         `suliman-awad-399a471b8`,
         `sulimanawadstudy@gmail.com`,
-        `open-source-projects-template`,
-        `Open Source Projects Template`,
+        `K-Means-Algorithm-2D`,
+        `K-Means-Algorithm-2D`,
 -->
 [![repo-size][repo-size-shield]][repo-url]
 [![forks][forks-shield]][forks-url]
@@ -34,7 +34,7 @@
 
 
 <div align="center">
-<h3>Open Source Projects Template</h3>
+<h3>K-Means-Algorithm-2D</h3>
 
 [View Demo][demo-url]
     ·
@@ -50,7 +50,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -60,72 +59,29 @@
 - [Project stucture](#project-stucture)
 - [Contributing](#contributing)
 - [Contact](#contact)
-- [Teammates](#teammates)
-- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 
 ## Introduction
 
-this is a tamplate for the open source porjects
-
-## Features
-
-### Example: 
-
-A few of the things you can do with GitPoint:
-
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+This is a Project that apply the K-means algorithm on a collection of 2D points and plot the result
 
 ## Tech Stack
 
 * [![python][python-shield]][python-url]
-* [![django][django-shield]][django-url]
-* [![mysql][mysql-shield]][mysql-url]
-* [![postgresql][postgresql-shield]][postgresql-url]
-* [![restful-api][restful-api-shield]][restful-api-url]
-* [![postman][postman-shield]][postman-url]
 * [![git][git-shield]][git-url]
 * [![github][github-shield]][github-url]
-* [![gitlab][gitlab-shield]][gitlab-url]
 * [![markdown][markdown-shield]][markdown-url]
-* [![dart][dart-shield]][dart-url]
-* [![flutter][flutter-shield]][flutter-url]
-* [![firebase][firebase-shield]][firebase-url]
-* [![html5][html5-shield]][html5-url]
-* [![css3][css3-shield]][css3-url]
-* [![bootstrap][bootstrap-shield]][bootstrap-url]
 * [![vscode][vscode-shield]][vscode-url]
-* [![staruml][staruml-shield]][staruml-url]
-* [![c++][c++-shield]][c++-url]
-* [![java][java-shield]][java-url]
-* [![aws][aws-shield]][aws-url]
-* [![jwt][jwt-shield]][jwt-url]
-* [![oauth][oauth-shield]][oauth-url]
-* [![microservices][microservices-shield]][microservices-url]
 
 ## Getting Started
 
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-### Example: 
 
 Make sure you have installed all of the following prerequisites on your development machine:
 * Git - [Download & Install Git][git-downloads-url]. OSX and Linux machines typically have this already installed.
 * Python - [Download & Install Python][python-downloads-url]
-* MongoDB - [Download & Install MongoDB](http://www.mongodb.org/downloads), and make sure it's running on the default port (27017).
 
 * pipenv module:
 
@@ -151,7 +107,7 @@ git init:
 
 2- Pull the the project into your repo:
 ```
-git pull https://github.com/suliman-99/open-source-projects-template.git
+git pull https://github.com/suliman-99/K-Means-Algorithm-2D.git
 ```
 
 enjoy it!
@@ -159,61 +115,32 @@ enjoy it!
 
 ### Usage
 
-This Repo is used as a template for the open source projects
-just make a copy of it and change the commented keywords in the first of the file
+The k-means algorithm is a popular clustering algorithm used in machine learning to group similar data points together. The algorithm works by dividing a set of data points into k groups or clusters, where each point belongs to the cluster with the nearest mean value.
 
-Use this space to show useful examples of how a project can be used. Additional photos, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more explanation, please refer to the [Documentation](https://en.wikipedia.org/wiki/K-means_clustering)_
 
 
 
 ## Explanation
 
-Listing:
-* first
-* seond
-* third
+### The following are the main steps in the k-means algorithm:
 
-some description...
-
-To do something we use [Topic Name](Tobic explanation link):
-```
-    some code
-```
-Another Topic [Topic2 Name](Tobic2 explanation link) 
-
-some description :
-```
-    some code
-    some code
-    some code
-```
+*Choose the number of clusters k that you want to group the data points into.
+*Randomly initialize k cluster centroids.
+*Assign each data point to the cluster whose centroid is closest to it.
+*Recalculate the centroid of each cluster based on the data points that belong to it.
+*Repeat steps 3 and 4 until the cluster assignments no longer change or a maximum number of iterations is reached.
 
 ## Project stucture
-```
-Project Name
-│   README.md
-└───folder1
-│   │   file11
-│   │
-│   └───folder11
-|       |   file111
-|       |   file112
-│   
-└───folder2
-    │   file21
-    │   file22
-```
 
-- `folder path` some description
-- `file path` some description
+- `main.py` This is the main file of the project which contains the algorithm logic
+- `data.csv` This is the data file which contains the coordinated of the points
 
 
 
 ## Contributing
 
-If you have suggestions for how Open Source Projects Template could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how K-Means-Algorithm-2D could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide][contributing-url].
 
@@ -222,20 +149,8 @@ For more, check out the [Contributing Guide][contributing-url].
 
 Suliman Awad - [sulimanawadstudy@gmail.com][gmail-url] - [Linkedin][linkedin-account-url]
 
-Project Link: [https://github.com/suliman-99/open-source-projects-template][repo-url]
+Project Link: [https://github.com/suliman-99/K-Means-Algorithm-2D][repo-url]
 
-
-
-## Teammates
-
-* [Display Name](https://github.com/username)
-* [Display Name 2](https://github.com/username2)
-
-
-## Acknowledgments
-
-* [Display Name](https://github.com/username)
-* [Display Name 2](https://github.com/username2)
 
 ## License
 
@@ -259,15 +174,15 @@ For more, check out the [License File][license-url].
 
 
 <!-- repo urls -->
-[repo-url]: https://github.com/suliman-99/open-source-projects-template
-[contributors-url]: https://github.com/suliman-99/open-source-projects-template/graphs/contributors
-[forks-url]: https://github.com/suliman-99/open-source-projects-template/network/members
-[stars-url]: https://github.com/suliman-99/open-source-projects-template/stargazers
-[issues-url]: https://github.com/suliman-99/open-source-projects-template/issues
+[repo-url]: https://github.com/suliman-99/K-Means-Algorithm-2D
+[contributors-url]: https://github.com/suliman-99/K-Means-Algorithm-2D/graphs/contributors
+[forks-url]: https://github.com/suliman-99/K-Means-Algorithm-2D/network/members
+[stars-url]: https://github.com/suliman-99/K-Means-Algorithm-2D/stargazers
+[issues-url]: https://github.com/suliman-99/K-Means-Algorithm-2D/issues
 [license-url]: ./LICENSE
 [contributing-url]: ./CONTRIBUTING.md
-[photo-url]: ./photo.png
-[demo-url]: https://github.com/suliman-99/open-source-projects-template
+[photo-url]: ./photo.jpg
+[demo-url]: https://github.com/suliman-99/K-Means-Algorithm-2D
 
 
 <!-- static urls -->
@@ -315,14 +230,14 @@ For more, check out the [License File][license-url].
 
 
 <!-- repo shields -->
-[repo-size-shield]: https://img.shields.io/github/repo-size/suliman-99/open-source-projects-template.svg?label=Repo%20size&style=flat-square
-[forks-shield]: https://img.shields.io/github/forks/suliman-99/open-source-projects-template.svg?&style=flat-square
-[stars-shield]: https://img.shields.io/github/stars/suliman-99/open-source-projects-template.svg?&style=flat-square
-[issues-shield]: https://img.shields.io/github/issues/suliman-99/open-source-projects-template.svg?&style=flat-square
-[contributors-shield]: https://img.shields.io/github/contributors/suliman-99/open-source-projects-template.svg?&style=flat-square
+[repo-size-shield]: https://img.shields.io/github/repo-size/suliman-99/K-Means-Algorithm-2D.svg?label=Repo%20size&style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/suliman-99/K-Means-Algorithm-2D.svg?&style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/suliman-99/K-Means-Algorithm-2D.svg?&style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/suliman-99/K-Means-Algorithm-2D.svg?&style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/suliman-99/K-Means-Algorithm-2D.svg?&style=flat-square
 [pr-shield]: https://img.shields.io/badge/PR-Welcome-333333?color=0055bb&style=flat-square
-[hachtoberfest-shield]: https://img.shields.io/github/hacktoberfest/2022/suliman-99/open-source-projects-template
-[license-shield]: https://img.shields.io/github/license/suliman-99/open-source-projects-template.svg?&style=flat-square
+[hachtoberfest-shield]: https://img.shields.io/github/hacktoberfest/2022/suliman-99/K-Means-Algorithm-2D
+[license-shield]: https://img.shields.io/github/license/suliman-99/K-Means-Algorithm-2D.svg?&style=flat-square
 
 
 <!-- static shields -->
